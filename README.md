@@ -8,10 +8,7 @@ View the live application at: https://isuvo.github.io/Pitchdeck/
 
 ## Features
 
-- Interactive charts for engagements, investment allocation, job creation, revenue projections, and risk management
-- Responsive design using Tailwind CSS
-- Modern UI components with Radix UI
-- Built with Vite for fast development
+- Project proposal realated to FGES
 
 ## Installation
 
