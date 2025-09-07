@@ -22,10 +22,10 @@ import {
 } from 'lucide-react';
 
 // Chart image paths
-const jobCreationChart = '/assets/job_creation_chart.png?v=1';
-const investmentChart = '/assets/investment_allocation_chart.png?v=1';
-const revenueChart = '/assets/revenue_projections_chart.png?v=1';
-const riskManagementChart = '/assets/risk_management_chart.png?v=1';
+const jobCreationChart = '/assets/job_creation_chart.png';
+const investmentChart = '/assets/investment_allocation_chart.png';
+const revenueChart = '/assets/revenue_projections_chart.png';
+const riskManagementChart = '/assets/risk_management_chart.png';
 
 function App() {
   const [activeTab, setActiveTab] = useState('overview');
