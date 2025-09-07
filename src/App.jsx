@@ -21,11 +21,11 @@ import {
   MapPin
 } from 'lucide-react';
 
-// Import chart images from public assets
-const jobCreationChart = '/assets/job_creation_chart.png';
-const investmentChart = '/assets/investment_allocation_chart.png';
-const revenueChart = '/assets/revenue_projections_chart.png';
-const riskManagementChart = '/assets/risk_management_chart.png';
+// Import chart images from src/assets
+import jobCreationChart from './assets/job_creation_chart.png';
+import investmentChart from './assets/investment_allocation_chart.png';
+import revenueChart from './assets/revenue_projections_chart.png';
+import riskManagementChart from './assets/risk_management_chart.png';
 
 function App() {
   const [activeTab, setActiveTab] = useState('overview');

@@ -23,11 +23,6 @@ jobs:
     - name: Install dependencies
       run: npm ci
 
-    - name: Copy images to public assets
-      run: |
-        mkdir -p public/assets
-        cp src/assets/*.png public/assets/
-
     - name: Build
       run: npm run build
 
