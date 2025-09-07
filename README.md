@@ -20,12 +20,12 @@ View the live application at: https://isuvo.github.io/Pitchdeck/
 
 2. Install dependencies:
    ```bash
-   pnpm install
+   npm install
    ```
 
 3. Start the development server:
    ```bash
-   pnpm dev
+   npm dev
    ```
 
 4. build and deploy (PAT Auth used. github web working from gh-pages. yml config ):
@@ -36,11 +36,11 @@ View the live application at: https://isuvo.github.io/Pitchdeck/
    ```   
 ## Scripts
 
-- `pnpm dev` - Start development server
-- `pnpm build` - Build for production
-- `pnpm preview` - Preview production build
-- `pnpm lint` - Run ESLint
-- `pnpm deploy` - Deploy to GitHub Pages
+- `npm dev` - Start development server
+- `npm build` - Build for production
+- `npm preview` - Preview production build
+- `npm lint` - Run ESLint
+- `npm deploy` - Deploy to GitHub Pages
 
 ## Technologies Used
 
@@ -54,3 +54,4 @@ View the live application at: https://isuvo.github.io/Pitchdeck/
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
+
