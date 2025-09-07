@@ -27,6 +27,12 @@ A React-based pitch deck application for showcasing business plans and projectio
    pnpm dev
    ```
 
+4. build and deploy (PAT Auth used. github web working from gh-pages. yml config ):
+   ```bash
+   npm run build 
+npm run deploy 
+   ```   
+
 ## Scripts
 
 - `pnpm dev` - Start development server
