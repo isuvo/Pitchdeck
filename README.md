@@ -30,7 +30,7 @@ A React-based pitch deck application for showcasing business plans and projectio
 4. build and deploy (PAT Auth used. github web working from gh-pages. yml config ):
    ```bash
    npm run build 
-npm run deploy 
+   npm run deploy 
    ```   
 
 ## Scripts
@@ -54,6 +54,4 @@ npm run deploy
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-## License
 
-This project is private.
