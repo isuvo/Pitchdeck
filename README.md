@@ -2,6 +2,10 @@
 
 A React-based pitch deck application for showcasing business plans and projections for foreign graduate entrepreneurs.
 
+## Live Demo
+
+View the live application at: https://isuvo.github.io/Pitchdeck/
+
 ## Features
 
 - Interactive charts for engagements, investment allocation, job creation, revenue projections, and risk management
@@ -54,5 +58,3 @@ A React-based pitch deck application for showcasing business plans and projectio
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
-
-
