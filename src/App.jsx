@@ -121,7 +121,7 @@ function App() {
                         <h3 className="font-semibold">Professional Experience</h3>
                         
                         <p className="text-sm text-gray-600">15+ years teaching, training and consultancy</p>
-                        <p className="text-sm text-gray-600">Current: Head of engineering</p>
+                        <p className="text-sm text-gray-600"><b>Current:</b> Head of engineering</p>
                         <p className="text-sm text-gray-600">Casual academic at ANU, UNSW, Crown Institute</p>
                       </div>
                     </div>
