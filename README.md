@@ -34,7 +34,6 @@ View the live application at: https://isuvo.github.io/Pitchdeck/
    
    npm run deploy 
    ```   
-
 ## Scripts
 
 - `pnpm dev` - Start development server
