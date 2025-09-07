@@ -29,7 +29,9 @@ jobs:
 
     - name: Deploy to GitHub Pages
       if: github.ref == 'refs/heads/main'
-      uses: peaceiris/actions-gh-pages@v4
+      uses: JamesIves/github-pages-deploy-action@v4.4.1
       with:
-        github_token: ${{ secrets.GH_PAGES_TOKEN }}
-        publish_dir: ./dist
+        branch: main
+        folder: dist
+        target-folder: docs
+        token: ${{ secrets.GITHUB_TOKEN }}
