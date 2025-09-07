@@ -5,14 +5,14 @@ import { Badge } from './components/ui/badge';
 import { Button } from './components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './components/ui/tabs';
 import { motion } from 'framer-motion';
-import { 
-  User, 
-  GraduationCap, 
-  Briefcase, 
-  Building, 
-  DollarSign, 
-  TrendingUp, 
-  Users, 
+import {
+  User,
+  GraduationCap,
+  Briefcase,
+  Building,
+  DollarSign,
+  TrendingUp,
+  Users,
   Target,
   Shield,
   FileText,
@@ -21,11 +21,11 @@ import {
   MapPin
 } from 'lucide-react';
 
-// Chart image URLs (using built asset paths with base path for GitHub Pages)
-const jobCreationChart = '/Pitchdeck/assets/job_creation_chart-DRaM-NcT.png';
-const investmentChart = '/Pitchdeck/assets/investment_allocation_chart-CZPsl6RC.png';
-const revenueChart = '/Pitchdeck/assets/revenue_projections_chart-CZcIS-3Q.png';
-const riskManagementChart = '/Pitchdeck/assets/risk_management_chart-CvICc84z.png';
+// Import chart images
+import jobCreationChart from './assets/job_creation_chart.png';
+import investmentChart from './assets/investment_allocation_chart.png';
+import revenueChart from './assets/revenue_projections_chart.png';
+import riskManagementChart from './assets/risk_management_chart.png';
 
 function App() {
   const [activeTab, setActiveTab] = useState('overview');
