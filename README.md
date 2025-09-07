@@ -1,0 +1,53 @@
+# Foreign Graduate Entrepreneur
+
+A React-based pitch deck application for showcasing business plans and projections for foreign graduate entrepreneurs.
+
+## Features
+
+- Interactive charts for engagements, investment allocation, job creation, revenue projections, and risk management
+- Responsive design using Tailwind CSS
+- Modern UI components with Radix UI
+- Built with Vite for fast development
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/isuvo/Pitchdeck.git
+   cd foreign-graduate-entrepreneur
+   ```
+
+2. Install dependencies:
+   ```bash
+   pnpm install
+   ```
+
+3. Start the development server:
+   ```bash
+   pnpm dev
+   ```
+
+## Scripts
+
+- `pnpm dev` - Start development server
+- `pnpm build` - Build for production
+- `pnpm preview` - Preview production build
+- `pnpm lint` - Run ESLint
+- `pnpm deploy` - Deploy to GitHub Pages
+
+## Technologies Used
+
+- React 18
+- Vite
+- Tailwind CSS
+- Radix UI
+- Recharts for charts
+- Framer Motion for animations
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+
+This project is private.
